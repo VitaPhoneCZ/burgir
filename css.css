@@ -1,5 +1,5 @@
 .card-food{
-    display: flex;/* Řadí obsah */
+    display: flex; /* Řadí obsah */
     justify-content: center; /* Horizontálně centruje obsah */
     align-items: center; /* Vertikálně centruje obsah */
     flex-direction: column; /* Dává obsah nad sebe */
@@ -14,8 +14,8 @@
 .card-food-img{
     width: 150px; /* Nastavuje šířku */
     height: 116px; /* Nastavuje výšku */
-    display: flex;
-    justify-content: center;
+    display: flex; /* Řadí obsah */
+    justify-content: center; /* Horizontálně centruje obsah */
     align-items: center; /* Zarovná na střed */
     scale: 30%; /* Zmenšení obrázku burgeru */
 }
@@ -23,7 +23,7 @@
 .card-food-name{
     height: 18px; /* Nastavuje výšku */
     width: 100%; /* Nastavuje šířku */
-    text-align: center;
+    text-align: center; /* Vertikálně centruje text */
 }
 
 .card-food-price{
