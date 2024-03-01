@@ -16,7 +16,7 @@
     height: 116px; /* Nastavuje výšku */
     display: flex;
     justify-content: center;
-    align-items: center; /* Zarovná */
+    align-items: center; /* Zarovná na střed */
     scale: 30%; /* Zmenšení obrázku burgeru */
 }
 
@@ -49,4 +49,19 @@
 svg{
     width: 18px; /* Nastavuje šířku */
     height: 18px; /* Nastavuje výšku */
+}
+
+.container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.main{
+    max-width: 1300px;
+    margin: auto;
+    padding: 5px;
 }
