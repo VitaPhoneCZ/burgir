@@ -51,17 +51,29 @@ svg{
     height: 18px; /* Nastavuje výšku */
 }
 
-.container {
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-}
-
-.main{
+main{
     max-width: 1300px;
     margin: auto;
     padding: 5px;
+}
+
+.container{
+    max-width: 100%;    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-name{
+    text-align: center;
 }
